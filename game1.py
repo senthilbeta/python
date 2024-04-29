@@ -8,13 +8,13 @@ class project:
 		stone = 1
 		papper = 2
 		siser = 3
-        	if stone==siser1 or siser==papper1 or papper==stone1:
-		    	print("player win!..")
-	 		elif stone==stone1 or siser==siser1 or papper==papper1:
-		    	print("match die!..")
+        if stone==siser1 or siser==papper1 or papper==stone1:
+		    print("player win!..")
+	 	elif stone==stone1 or siser==siser1 or papper==papper1:
+		    print("match die!..")
 
-			else:
-		    	print("computer win!..")
+		else:
+		    print("computer win!..")
 
 obj = project()
 obj.first(1)
